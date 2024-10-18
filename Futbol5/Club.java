@@ -42,8 +42,4 @@ public class Club {
         Collections.sort(resultado,comp);
         return resultado;
     }
-
-    public ArrayList<Cancha> getCanchas() {
-        return canchas;
-    }
 }
