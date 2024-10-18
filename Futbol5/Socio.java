@@ -87,8 +87,4 @@ public class Socio {
                 ", nombre='" + nombre + '\'' +
                 '}'+'\n';
     }
-
-    public ArrayList<Cancha> getAlquileres() {
-        return alquileres;
-    }
 }
