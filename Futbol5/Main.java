@@ -38,8 +38,7 @@ public class Main {
         club.alquilarCancha(s4,c1,800);
         club.alquilarCancha(s4,c2,500);
         club.alquilarCancha(s1,c2,700);
-        ArrayList<Cancha> canchas = s4.getAlquileres();
-        System.out.println(canchas);
+       
         ComparadorApellido comparadorApellido = new ComparadorApellido();
         ComparadorNombre comparadorNombre = new ComparadorNombre();
         ComparadorCantAlquiler comparadorCantAlquiler = new ComparadorCantAlquiler(2);
